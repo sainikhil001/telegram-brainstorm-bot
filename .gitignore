@@ -1,0 +1,22 @@
+# Keep local secrets out of the public repository.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local n8n state and database files.
+.n8n/
+*.sqlite
+*.sqlite3
+*.db
+
+# Local tooling and operating-system files.
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.pytest_cache/
